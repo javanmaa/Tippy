@@ -13,6 +13,7 @@
 		E3AA52CF2439B08E003EB12C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3AA52CD2439B08E003EB12C /* Main.storyboard */; };
 		E3AA52D12439B08F003EB12C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3AA52D02439B08F003EB12C /* Assets.xcassets */; };
 		E3AA52D42439B08F003EB12C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3AA52D22439B08F003EB12C /* LaunchScreen.storyboard */; };
+		E3AA52DC2439BFEB003EB12C /* SettinngsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AA52DB2439BFEB003EB12C /* SettinngsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E3AA52D02439B08F003EB12C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3AA52D32439B08F003EB12C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E3AA52D52439B08F003EB12C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3AA52DB2439BFEB003EB12C /* SettinngsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettinngsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				E3AA52C92439B08E003EB12C /* SceneDelegate.swift */,
 				E3AA52CB2439B08E003EB12C /* ViewController.swift */,
 				E3AA52CD2439B08E003EB12C /* Main.storyboard */,
+				E3AA52DB2439BFEB003EB12C /* SettinngsViewController.swift */,
 				E3AA52D02439B08F003EB12C /* Assets.xcassets */,
 				E3AA52D22439B08F003EB12C /* LaunchScreen.storyboard */,
 				E3AA52D52439B08F003EB12C /* Info.plist */,
@@ -140,6 +143,7 @@
 			files = (
 				E3AA52CC2439B08E003EB12C /* ViewController.swift in Sources */,
 				E3AA52C82439B08E003EB12C /* AppDelegate.swift in Sources */,
+				E3AA52DC2439BFEB003EB12C /* SettinngsViewController.swift in Sources */,
 				E3AA52CA2439B08E003EB12C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

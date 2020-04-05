@@ -26,7 +26,7 @@ class ViewController: UIViewController {
     
     
     @IBAction func textField(_ sender: Any) {
-        let percentTip = [0.1, 0.15, 0.2, Custom]
+        let percentTip = [0.1, 0.15, 0.2, Custom/100]
         let bill = Double(billField.text!) ?? 0
         let tip = bill * percentTip[segmentOut.selectedSegmentIndex]
         let total = bill + tip
@@ -58,6 +58,7 @@ class ViewController: UIViewController {
         p7Label.text = ""
         p8Label.text = ""
         segmentOut.selectedSegmentIndex = 3
+        Custom = UserDefaults.standard.double(forKey: "DoubleCustom")
     }
 
 
