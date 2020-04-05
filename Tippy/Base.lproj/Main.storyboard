@@ -20,6 +20,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="61"/>
                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                <connections>
+                                    <action selector="textField:" destination="BYZ-38-t0r" eventType="editingChanged" id="fuA-MV-I2X"/>
+                                </connections>
                             </textField>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="xkn-MJ-Vmq">
                                 <rect key="frame" x="20" y="99" width="374" height="32"/>
@@ -185,6 +188,20 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" title="Tip Calculator" id="FCD-jk-aVu"/>
+                    <connections>
+                        <outlet property="billField" destination="MwG-8Y-HLc" id="HIO-bh-NN2"/>
+                        <outlet property="p1Label" destination="aJh-od-kF2" id="cQ2-xe-ZNW"/>
+                        <outlet property="p2Label" destination="3GX-P9-tlv" id="wpC-qQ-H8f"/>
+                        <outlet property="p3Label" destination="B5B-d5-aI5" id="Ffm-il-FLh"/>
+                        <outlet property="p4Label" destination="9JC-Pi-P4f" id="BM5-Oe-WTA"/>
+                        <outlet property="p5Label" destination="a9J-VP-nWf" id="Omm-Ze-7o0"/>
+                        <outlet property="p6Label" destination="egI-ia-xgu" id="a5P-c9-HII"/>
+                        <outlet property="p7Label" destination="naY-Jk-9lV" id="T3J-CE-Fpb"/>
+                        <outlet property="p8Label" destination="pby-Qr-xTX" id="1Eh-O4-PXJ"/>
+                        <outlet property="segmentOut" destination="xkn-MJ-Vmq" id="H12-5D-zDg"/>
+                        <outlet property="tipLabel" destination="OSz-bD-ulF" id="u6C-FO-WdH"/>
+                        <outlet property="totalLablel" destination="nDS-ZD-tSI" id="lWA-jy-yxt"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
