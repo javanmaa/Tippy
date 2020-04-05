@@ -16,9 +16,11 @@ class SettinngsViewController: UIViewController {
         Custom = Double(customField.text!) ?? 0
         UserDefaults.standard.set(Custom, forKey: "DoubleCustom")
         
+        
     }
     override func viewDidLoad() {
         super.viewDidLoad()
+        customField.becomeFirstResponder()
 
         // Do any additional setup after loading the view.
     }

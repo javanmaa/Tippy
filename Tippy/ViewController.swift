@@ -60,6 +60,9 @@ class ViewController: UIViewController {
         segmentOut.selectedSegmentIndex = 3
         Custom = UserDefaults.standard.double(forKey: "DoubleCustom")
     }
+    override func viewDidAppear(_ animated: Bool) {
+        billField.becomeFirstResponder()
+    }
 
 
 }
